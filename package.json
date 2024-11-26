@@ -1,13 +1,17 @@
 {
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "next": "^15.0.3",
+    "path": "^0.12.7",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "name": "ssg",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
